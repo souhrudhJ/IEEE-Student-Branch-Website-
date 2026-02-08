@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  /* IEEE brand colors */
+  --color-ieee-navy: #003366;
+  --color-ieee-dark: #001a33;
+  --color-ieee-blue: #00629b;
+  --color-ieee-accent: #00aeef;
+  --color-ieee-gold: #fdbf57;
+  --color-ieee-light: #f0f4f8;
+  /* Typography */
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Plus Jakarta Sans', ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply font-sans antialiased text-gray-800 bg-white;
+  }
+}
