@@ -17,6 +17,14 @@ cd IEEE-Student-Branch-Website-
 npm install
 ```
 
+## Run the app
+
+```bash
+npm run dev
+```
+
+Then open **http://localhost:5173** in your browser.
+
 ## Scripts
 
 | Command        | Description              |
